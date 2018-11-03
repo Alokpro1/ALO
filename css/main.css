@@ -1,0 +1,84 @@
+/* #icon{
+    text-shadow: rgb(41, 114, 179) 0px 0px 0px
+               , rgb(44, 122, 191) 1px 1px 0px,
+                 rgb(47, 130, 204) 2px 2px 0px,
+                 rgb(50, 139, 217) 3px 3px 0px,
+                 rgb(53, 147, 230) 4px 4px 0px,
+                 rgb(56, 155, 242) 5px 5px 0px;
+    font-size: 23px; 
+    color: rgb(232, 247, 255);
+    height: 51px; width: 51px; 
+    line-height: 51px; 
+    border-radius: 35%; 
+    text-align: center; 
+    background-color: rgb(59, 163, 255);
+    padding: 0%;
+} */
+html,
+body,
+header,
+.view {
+  height: 100%;
+}
+
+@media (max-width: 740px) {
+  html,
+  body,
+  header,
+  .view {
+    height: 100vh;
+  }
+}
+
+.top-nav-collapse {
+  background-color: #f8bbd0 !important;
+}
+
+.navbar:not(.top-nav-collapse) {
+  background: transparent !important;
+}
+
+@media (max-width: 991px) {
+  .navbar:not(.top-nav-collapse) {
+    background: #f8bbd0 !important;
+  }
+}
+
+
+html,
+body,
+header,
+.jarallax {
+  height: 100%;
+  background-image: url('../img/t5.jpg'); 
+  background-repeat: no-repeat; 
+  background-size: cover; 
+  background-position: center center;
+}
+
+@media (max-width: 740px) {
+  html,
+  body,
+  header,
+  .jarallax {
+    height: 100vh;
+  }
+}
+
+.top-nav-collapse {
+  background-color: #82b1ff !important;
+}
+
+.navbar:not(.top-nav-collapse) {
+  background: transparent !important;
+}
+
+@media (max-width: 991px) {
+  .navbar:not(.top-nav-collapse) {
+    background: #82b1ff !important;
+  }
+}
+
+h5 {
+  letter-spacing: 3px;
+}
